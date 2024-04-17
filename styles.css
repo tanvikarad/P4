@@ -1,0 +1,70 @@
+/* DEVELOPER: Tanvi Karad, IS117-006, Spring 2024 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*background-color: #D3BBDD;*/
+    background-color: white;
+    color: #65499D;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    color : #0a0079;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+.left-section {
+    float: left;
+    width: 50%; 
+    max-width: 500em;
+}
+#home {
+    background-color: beige;
+}
+#dark{
+    color: rgb(27, 27, 181);
+}
+#light{
+    color: white;
+}
+
+
+
+
+.img {
+    float: left;
+    width: 100;
+    height: 55;
+}
+
+
+
+/*link*/
+a[href]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #603F8B;
+}
+/*unvisited link*/
+a:link {
+    color: #603F8B;
+}
+/*mouse over link*/
+a:focus, a:hover{
+    color: #a57cbd;
+}
+/*selected link*/
+a:active{
+    color: #4a4066;
+}
+/*visited link*/
+a:visited {
+    color: #48047c;
+}
+
